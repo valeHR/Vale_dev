@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Dev Jr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Mi Portafolio</h1>
+        <button id="menu-toggle" class="menu-btn">☰</button>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobremi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Hola, soy <span class="highlight">Valencio Hernández Ramírez</span></h2>
+            <p>Desarrollador Web con pasión por crear experiencias digitales innovadoras.</p>
+            <a href="#contacto" class="btn">Contáctame</a>
+        </div>
+        <div class="hero-img">
+            <img src="iconDev.jpg" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobremi" class="section">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador web junior enfocado en la creación de interfaces modernas y funcionales. 
+            <br>Con habilidades en HTML, CSS y JavaScript, mi objetivo es ofrecer experiencias de usuario óptimas y accesibles.</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Juego del Gato</h3>
+                <p>Un juego de mesa clásico donde dos jugadores intentan formar una línea con sus símbolos.</p>
+                <a href="https://valehr.github.io/J_Gato/" class="btn" style="color: rgb(22, 167, 34);">Ver Proyecto</a>
+            </div>
+            <div class="project-card">
+                <h3>Juego de Memoria</h3>
+                <p>Un desafiante juego para encontrar parejas de cartas en el menor número de intentos.</p>
+                <a href="https://valehr.github.io/J_Memoria/" class="btn" style="color: rgb(22, 167, 34);">Ver Proyecto</a>
+            </div>
+            <div class="project-card">
+                <h3>Juego de Gusanito</h3>
+                <p>Clásico juego de la serpiente donde debes crecer sin chocar contra ti mismo.</p>
+                <a href="https://valehr.github.io/Juego_Snake/" class="btn" style="color: rgb(22, 167, 34);">Ver Proyecto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Correo: <a href="mailto:hvalencio24@gmail.com" class="btn">hvalencio24@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/valehr" target="_blank" class="btn">GitHub</a></p>
+        <p>WhatsApp: <a href="https://web.whatsapp.com/" target="_blank" class="btn">WhatsApp</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hecho por Valencio Hrz Rmz.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
